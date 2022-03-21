@@ -1,0 +1,45 @@
+$font-color: #555555;
+
+body,
+html,
+#app,
+.app {
+    padding: 0;
+}
+
+h1,
+.h1 {
+    font-size: 10rem;
+}
+
+.navBar {
+    padding: 5px;
+    background-color: #fff;
+
+    &__link {
+        display: flex;
+        margin: 0;
+
+        li {
+            margin: 10px;
+            list-style-type: none;
+            font-size: 17px;
+
+            a {
+                text-decoration: none;
+                color: #555555;
+            }
+        }
+    }
+}
+
+button {
+    padding: 10px;
+    background-color: #fff;
+
+}
+
+button:hover {
+    background-color: #000;
+    color: #fff;
+}
